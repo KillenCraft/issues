@@ -1,0 +1,36 @@
+name: Feature request
+description: Suggest a new feature or change for one of the mods.
+title: "[Feature] "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: dropdown
+    id: mod
+    attributes:
+      label: Mod
+      options:
+        - TrailWright
+        - Strength In Numbers
+        - Stope
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like?
+      description: Describe the feature and the problem or gameplay it addresses.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other mods, config options, or data pack rules you tried.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues and this has not been requested.
+          required: true

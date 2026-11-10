@@ -1,0 +1,109 @@
+name: TrailWright bug report
+description: Grass, paths, or trail healing not behaving as expected.
+title: "[TrailWright] "
+labels: ["TrailWright", "bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please search existing issues first and confirm you are on the latest version.
+  - type: input
+    id: mod-version
+    attributes:
+      label: TrailWright version
+      placeholder: "e.g. 1.3.0"
+    validations:
+      required: true
+  - type: input
+    id: stope-version
+    attributes:
+      label: Stope version
+      placeholder: "2.0.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: mc-version
+    attributes:
+      label: Minecraft version
+      options:
+        - "1.20.1"
+        - "1.20"
+    validations:
+      required: true
+  - type: dropdown
+    id: loader
+    attributes:
+      label: Mod loader
+      options:
+        - Fabric
+        - Forge
+        - Both
+    validations:
+      required: true
+  - type: input
+    id: loader-version
+    attributes:
+      label: Loader version
+      description: Fabric Loader and Fabric API versions, or Forge version.
+      placeholder: "Fabric Loader 0.16.x, Fabric API 0.92.x / Forge 47.x"
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Where does it happen?
+      options:
+        - Single player
+        - Dedicated server
+        - LAN or open-to-LAN
+    validations:
+      required: true
+  - type: input
+    id: modpack
+    attributes:
+      label: Modpack
+      description: Name and version if you are playing a modpack. Leave blank for a custom mod list.
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Create a new world with only this mod and its dependencies
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Upload `latest.log` and any crash report to https://mclo.gs and paste the links here.
+    validations:
+      required: true
+  - type: dropdown
+    id: minimal
+    attributes:
+      label: Happens with only this mod and its dependencies installed?
+      options:
+        - "Yes"
+        - "No, only with other mods (list them above)"
+        - Not tested
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues and this is not a duplicate.
+          required: true
+        - label: I am using the latest version of the mod and of Stope.
+          required: true

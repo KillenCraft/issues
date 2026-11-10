@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and support
+    url: https://discord.gg/REPLACE_ME
+    about: Ask how something works or get help on the KillenCraft Discord.
+  - name: Modpack permission requests
+    url: mailto:KillenCraft@pm.me
+    about: Ask to use a mod in a modpack distributed outside CurseForge.

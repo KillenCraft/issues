@@ -8,11 +8,11 @@ body:
     attributes:
       label: Mod
       options:
-        - TrailWright
-        - Strength In Numbers
         - Ancient Trees
+        - TrailWright
         - Stope
-    validations:
+        - Strength In Numbers
+validations:
       required: true
   - type: textarea
     id: problem

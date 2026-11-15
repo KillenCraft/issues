@@ -1,4 +1,4 @@
-name: Stope bug report
+name: "Bug report: Stope"
 description: Crashes or errors in the Stope library, or problems with its settings screens.
 title: "[Stope] "
 labels: ["Stope", "bug", "needs-triage"]

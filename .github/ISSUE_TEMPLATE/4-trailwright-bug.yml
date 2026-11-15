@@ -1,4 +1,4 @@
-name: TrailWright bug report
+name: "Bug report: TrailWright"
 description: Grass, paths, or trail healing not behaving as expected.
 title: "[TrailWright] "
 labels: ["TrailWright", "bug", "needs-triage"]

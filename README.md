@@ -2,12 +2,10 @@
 
 Bug reports and feature requests for KillenCraft Minecraft mods.
 
-| Mod | CurseForge |
-| --- | --- |
-| TrailWright | [curseforge.com/minecraft/mc-mods/trailwright](https://www.curseforge.com/minecraft/mc-mods/trailwright) |
-| Strength In Numbers | [curseforge.com/minecraft/mc-mods/strength-in-numbers](https://www.curseforge.com/minecraft/mc-mods/strength-in-numbers) |
-| Ancient Trees | [curseforge.com/minecraft/mc-mods/ancient-trees](https://www.curseforge.com/minecraft/mc-mods/ancient-trees) |
-| Stope | [curseforge.com/minecraft/mc-mods/stope](https://www.curseforge.com/minecraft/mc-mods/stope) |
+- [Ancient Trees](https://www.curseforge.com/minecraft/mc-mods/ancient-trees)
+- [TrailWright](https://www.curseforge.com/minecraft/mc-mods/trailwright)
+- [Stope](https://www.curseforge.com/minecraft/mc-mods/stope)
+- [Strength In Numbers](https://www.curseforge.com/minecraft/mc-mods/strength-in-numbers)
 
 ## Reporting a bug
 
@@ -18,16 +16,16 @@ Bug reports and feature requests for KillenCraft Minecraft mods.
 
 ## Labels
 
-| Label | Meaning |
-| --- | --- |
-| `TrailWright`, `Strength In Numbers`, `Ancient Trees`, `Stope` | Which mod the issue is about |
-| `bug` | Something is broken |
-| `enhancement` | Feature request |
-| `compat` | Conflict or interaction with another mod |
-| `fabric`, `forge` | Happens only on that loader |
-| `needs-triage` | Not yet reviewed |
-| `confirmed` | Reproduced by the developer |
-| `wontfix`, `duplicate`, `invalid` | Closed without a change |
+| Label                                                          | Meaning                                  |
+| -------------------------------------------------------------- | ---------------------------------------- |
+| `Ancient Trees`, `TrailWright`, `Stope`, `Strength In Numbers` | Which mod the issue is about             |
+| `bug`                                                          | Something is broken                      |
+| `enhancement`                                                  | Feature request                          |
+| `compat`                                                       | Conflict or interaction with another mod |
+| `fabric`, `forge`                                              | Happens only on that loader              |
+| `needs-triage`                                                 | Not yet reviewed                         |
+| `confirmed`                                                    | Reproduced by the developer              |
+| `wontfix`, `duplicate`, `invalid`                              | Closed without a change                  |
 
 ## Other contact
 

@@ -12,7 +12,7 @@ body:
         - TrailWright
         - Stope
         - Strength In Numbers
-validations:
+    validations:
       required: true
   - type: textarea
     id: problem

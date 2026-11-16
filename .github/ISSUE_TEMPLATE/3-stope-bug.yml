@@ -18,7 +18,7 @@ body:
     id: dependent-mods
     attributes:
       label: Mods using Stope
-      description: Which of my mods you have installed alongside Stope (TrailWright, Strength In Numbers, Ancient Trees).
+      description: Which of my mods you have installed alongside Stope (TrailWright, Strength In Numbers, Ancient Trees, Elsewood).
     validations:
       required: false
   - type: dropdown

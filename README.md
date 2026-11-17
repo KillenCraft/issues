@@ -4,9 +4,9 @@ Bug reports and feature requests for KillenCraft Minecraft mods.
 
 - [Ancient Trees](https://www.curseforge.com/minecraft/mc-mods/ancient-trees)
 - [Elsewood](https://www.curseforge.com/minecraft/mc-mods/elsewood)
-- [TrailWright](https://www.curseforge.com/minecraft/mc-mods/trailwright)
 - [Stope](https://www.curseforge.com/minecraft/mc-mods/stope)
 - [Strength In Numbers](https://www.curseforge.com/minecraft/mc-mods/strength-in-numbers)
+- [TrailWright](https://www.curseforge.com/minecraft/mc-mods/trailwright)
 
 ## Reporting a bug
 
@@ -19,7 +19,7 @@ Bug reports and feature requests for KillenCraft Minecraft mods.
 
 | Label                                                                      | Meaning                                  |
 | -------------------------------------------------------------------------- | ---------------------------------------- |
-| `Ancient Trees`, `Elsewood`, `TrailWright`, `Stope`, `Strength In Numbers` | Which mod the issue is about             |
+| `Ancient Trees`, `Elsewood`, `Stope`, `Strength In Numbers`, `TrailWright` | Which mod the issue is about             |
 | `bug`                                                                      | Something is broken                      |
 | `enhancement`                                                              | Feature request                          |
 | `compat`                                                                   | Conflict or interaction with another mod |

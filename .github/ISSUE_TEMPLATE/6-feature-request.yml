@@ -10,9 +10,9 @@ body:
       options:
         - Ancient Trees
         - Elsewood
-        - TrailWright
         - Stope
         - Strength In Numbers
+        - TrailWright
     validations:
       required: true
   - type: textarea

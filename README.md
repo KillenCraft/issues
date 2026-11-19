@@ -3,6 +3,7 @@
 Bug reports and feature requests for KillenCraft Minecraft mods.
 
 - [Ancient Trees](https://www.curseforge.com/minecraft/mc-mods/ancient-trees)
+- [Beneficiate](https://www.curseforge.com/minecraft/mc-mods/beneficiate)
 - [Elsewood](https://www.curseforge.com/minecraft/mc-mods/elsewood)
 - [Stope](https://www.curseforge.com/minecraft/mc-mods/stope)
 - [Strength In Numbers](https://www.curseforge.com/minecraft/mc-mods/strength-in-numbers)
@@ -17,16 +18,16 @@ Bug reports and feature requests for KillenCraft Minecraft mods.
 
 ## Labels
 
-| Label                                                                      | Meaning                                  |
-| -------------------------------------------------------------------------- | ---------------------------------------- |
-| `Ancient Trees`, `Elsewood`, `Stope`, `Strength In Numbers`, `TrailWright` | Which mod the issue is about             |
-| `bug`                                                                      | Something is broken                      |
-| `enhancement`                                                              | Feature request                          |
-| `compat`                                                                   | Conflict or interaction with another mod |
-| `fabric`, `forge`                                                          | Happens only on that loader              |
-| `needs-triage`                                                             | Not yet reviewed                         |
-| `confirmed`                                                                | Reproduced by the developer              |
-| `wontfix`, `duplicate`, `invalid`                                          | Closed without a change                  |
+| Label                                                                                     | Meaning                                  |
+| ----------------------------------------------------------------------------------------- | ---------------------------------------- |
+| `Ancient Trees`, `Beneficiate`, `Elsewood`, `Stope`, `Strength In Numbers`, `TrailWright` | Which mod the issue is about             |
+| `bug`                                                                                     | Something is broken                      |
+| `enhancement`                                                                             | Feature request                          |
+| `compat`                                                                                  | Conflict or interaction with another mod |
+| `fabric`, `forge`                                                                         | Happens only on that loader              |
+| `needs-triage`                                                                            | Not yet reviewed                         |
+| `confirmed`                                                                               | Reproduced by the developer              |
+| `wontfix`, `duplicate`, `invalid`                                                         | Closed without a change                  |
 
 ## Other contact
 

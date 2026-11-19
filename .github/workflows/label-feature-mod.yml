@@ -15,7 +15,7 @@ jobs:
       - uses: actions/github-script@v7
         with:
           script: |
-            const mods = ["Ancient Trees", "Elsewood", "Stope", "Strength In Numbers", "TrailWright"];
+            const mods = ["Ancient Trees", "Beneficiate", "Elsewood", "Stope", "Strength In Numbers", "TrailWright"];
             const body = context.payload.issue.body || "";
             const match = body.match(/### Mod\s*\n\s*\n?\s*(.+)/);
             if (!match) return;

@@ -1,7 +1,7 @@
-name: "Bug report: Stope"
-description: Crashes or errors in the Stope library, or problems with its settings screens.
-title: "[Stope] "
-labels: ["Stope", "bug", "needs-triage"]
+name: "Bug report: Beneficiate"
+description: Feathers from chickens, self-planting saplings and plants, mob gear drops, bat and squid spawns, or the settings screen not working as expected.
+title: "[Beneficiate] "
+labels: ["Beneficiate", "bug", "needs-triage"]
 body:
   - type: markdown
     attributes:
@@ -10,17 +10,17 @@ body:
   - type: input
     id: mod-version
     attributes:
-      label: Stope version
-      placeholder: "e.g. 2.0.1"
+      label: Beneficiate version
+      placeholder: "e.g. 1.0.0"
     validations:
       required: true
   - type: input
-    id: dependent-mods
+    id: stope-version
     attributes:
-      label: Mods using Stope
-      description: Which of my mods you have installed alongside Stope (TrailWright, Strength In Numbers, Ancient Trees, Elsewood).
+      label: Stope version
+      placeholder: "e.g. 2.6.0"
     validations:
-      required: false
+      required: true
   - type: dropdown
     id: mc-version
     attributes:
@@ -45,7 +45,7 @@ body:
     attributes:
       label: Loader version
       description: Fabric Loader and Fabric API versions, or Forge version.
-      placeholder: "Fabric Loader 0.16.x, Fabric API 0.92.x / Forge 47.x"
+      placeholder: "Fabric Loader 0.20.x, Fabric API 0.92.x / Forge 47.x"
     validations:
       required: true
   - type: dropdown

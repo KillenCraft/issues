@@ -9,6 +9,7 @@ body:
       label: Mod
       options:
         - Ancient Trees
+        - Beneficiate
         - Elsewood
         - Stope
         - Strength In Numbers
